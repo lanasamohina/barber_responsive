@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="src/libs/normalize/normalize.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+
+		<!-- header -->
+		<header class="header" id="main">
+			<div class="container">
+				
+				<div class="header-wrap">
+					<!-- nav -->
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item"><a href="#main" class="nav__link">Главная</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Наши работы</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Записаться</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+						</ul>
+					</nav> <!-- ./nav -->
+
+					<button class="menu-btn" id="menu-btn">
+						<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0 0h24v24H0z" fill="none"/>
+							<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+						</svg>
+					</button>
+
+					<!-- header-btn-wrap -->
+					<div class="header-btn-wrap">
+						<a href="#loginModal" class="login-btn">Вход</a>
+					</div> <!-- ./header-btn-wrap -->
+				</div>
+			</div>
+
+		</header> <!-- ./header -->
+
+		<!-- logo-wrap -->
+		<div class="logo-wrap">
+			<img class="hide-tablet" src="img/logotype-desktop.svg" alt="Barbershop">
+            <img class="hide show-tablet hide-mobile" src="img/logotype-tablet.svg" alt="Barbershop">
+			<img class="hide show-mobile" src="img/logotype_mobile.svg" alt="Barbershop">
+		</div> <!-- ./logo-wrap -->
+
+		<div class="container">
+
+			<!-- statistics -->
+			<div class="statistics">
+				<div class="statistics-wrap">
+					<div class="statistics__column1">
+						<section class="statistics__header-wrap">
+							<h3 class="statistics__title">Стрижка у нас это выгодно!</h3>
+							<p class="statistics__descr">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+							<span class="statistics__note"><small>*</small> - приведенные данные ложь</span>
+						</section>
+					</div>
+
+					<div class="statistics__column2">
+
+						<!-- statistics-list -->
+						<ul class="statistics__list">
+							<li class="statistics__item">
+								<span class="statistics-count">
+									1 500<small>*</small>
+								</span>
+								<p class="statistics-count__descr">гривен вложений</p>
+							</li>
+							<li class="statistics__item">
+								<span class="statistics-count">
+									7 200
+								</span>
+								<p class="statistics-count__descr">секунд времени мастера</p>
+							</li>
+							<li class="statistics__item">
+								<span class="statistics-count">
+									90 000
+								</span>
+								<p class="statistics-count__descr">постриженных волос</p>
+							</li>
+							<li class="statistics__item">
+								<span class="statistics-count">
+									500 000<small>*</small>
+								</span>
+								<p class="statistics-count__descr">лайков и комплиментов</p>
+							</li>
+						</ul> <!-- ./statistics-list -->
+
+					</div>
+				</div>
+			</div> <!-- ./statistics -->
+
+		</div>
+
+		<!-- features -->
+		<div class="features">
+			<div class="container">
+
+				<ul class="features__list">
+					<li class="features__item">
+						<span class="features__img-wrap">
+							<img src="img/advantage-1-illustration.svg" alt="#" class="features__img">
+						</span>
+						<div class="title-descr__wrap">
+							<h3 class="features__title">Быстро</h3>
+							<p class="features__descr">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки</p>
+						</div>
+					</li>
+					<li class="features__item">
+						<span class="features__img-wrap">
+							<img src="img/advantage-2-illustration.svg" alt="#" class="features__img">
+						</span>
+						<div class="title-descr__wrap">
+							<h3 class="features__title">Круто</h3>
+							<p class="features__descr">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>
+						</div>
+					</li>
+					<li class="features__item">
+						<span class="features__img-wrap">
+							<img src="img/advantage-3-illustration.svg" alt="#" class="features__img">
+						</span>
+						<div class="title-descr__wrap">
+							<h3 class="features__title">Дорого</h3>
+							<p class="features__descr">Наши мастера — профессионалы своего делаи не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div> <!-- ./features -->
+
+		<!-- news -->
+		<section class="news">
+			<div class="container">
+
+				<div class="column-wrap">
+						<h3 class="section-title">Новости и акции</h3>
+					<div class="column-2--btn-wrap">
+						<button class="page-btn section-btn">Показать все</button>
+					</div>
+				</div>
+
+				<!-- news__item -->
+				<div class="news-wrapper">
+					<article class="news__item">
+						<h3 hidden></h3>
+						<a href="#" class="news__link">
+							<time datetime="2017-09-29" class="news__date-wrap">
+								<span class="news__date">29</span>
+								<span class="news__month">сент</span>
+							</time>
+							<p class="news__descr">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.</p>
+						</a>
+					</article> <!-- ./news__item -->
+					<!-- news__item -->
+					<article class="news__item">
+						<h3 hidden></h3>
+						<a href="#" class="news__link">
+							<time datetime="2017-09-29" class="news__date-wrap">
+								<span class="news__date">29</span>
+								<span class="news__month">сент</span>
+							</time>
+							<p class="news__descr">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.</p>
+						</a>
+					</article> <!-- ./news__item -->
+					<!-- news__item -->
+					<article class="news__item">
+						<h3 hidden></h3>
+						<a href="#" class="news__link">
+							<time datetime="2017-09-29" class="news__date-wrap">
+								<span class="news__date">29</span>
+								<span class="news__month">сент</span>
+							</time>
+							<p class="news__descr">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.</p>
+						</a>
+					</article> <!-- ./news__item -->
+					<!-- news__item -->
+				</div>
+
+
+			</div>
+		</section> <!-- ./news -->
+
+		<!-- testimonials -->
+		<section class="testimonials">
+			<div class="container">
+
+				<div class="column-wrap">
+					<h3 class="section-title">Отзывы о нас</h3>
+					<div class="column-2--btn-wrap">
+						<button class="page-btn section-btn">Оставить свой</button>
+					</div>
+				</div>
+
+				<div class="testimonials__slider-wrap">
+					<button class="testimonials__slider-btn testimonials__slider-btn--prev">
+						<i class="fas fa-caret-left"></i>
+					</button>
+
+					<!-- slider container -->
+					<div class="testimonials__slider-container"> <!-- view -->
+						<div class="testimonials__slider-track">
+
+							<figure class="testimonials__slider-item">
+								<span class="testimonials__slider-img-wrap">
+									<img src="img/man.jpg" alt="" class="testimonials__slider-img">
+								</span>
+								<figcaption class="testimonials__slider-descr-wrap">
+									<h3 class="testimonials__slider-title">Трэвис Баркер</h3>
+									<p class="testimonials__slider-descr">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+								</figcaption>
+							</figure>
+
+						</div>
+					</div> <!-- ./slider container -->
+
+					<button class="testimonials__slider-btn testimonials__slider-btn--next">
+						<i class="fas fa-caret-right"></i>
+					</button>
+
+					<ul class="testimonials__slider-dots-list">
+						<li class="testimonials__slider-dots-item testimonials__slider-dots-item--active">
+							<button class="testimonials__slider-dots-btn"></button>
+						</li>
+						<li class="testimonials__slider-dots-item">
+							<button class="testimonials__slider-dots-btn"></button>
+						</li>
+						<li class="testimonials__slider-dots-item">
+							<button class="testimonials__slider-dots-btn"></button>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</section> <!-- ./testimonials -->
+
+		<!-- **************Footer**************-->
+		<footer>
+			<div class="container">
+                <div class="footer-wrapper">
+                    <address class="information">
+                        <p class="information-uppercase">Барбершоп Бородинский</p>
+                        <p class="information-adress">г.Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+                        <p class="information-telephone">Тел.:+7(812)555-66-66</p>
+                    </address>
+                    <div class="social">
+                        <p class="header-social">Давайте дружить!</p>
+                        <div class="icon">
+                            <div class="vk">
+                                <a href="#" class="icon__link"><i class="fab fa-vk"></i></a>
+                            </div>
+                            <div class="facebook">
+                                <a href="#" class="icon__link"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="insta">
+                                <a href="#" class="icon__link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="developt-by">
+                        <p class="developt-by__header">Разработано:</p>
+                        <div class="html-academy">
+                            <a href="#">free template</a>
+                        </div>
+                    </div>
+                </div>
+
+			</div>
+		</footer>
+		<!-- **************/Footer**************-->
+
+
+		<!--************Pop-up*************-->
+
+		<div id="loginModal" class="popup-login">
+			<div class="wrapper-popup">
+				<div class="popup-content">
+					<h1 class="header-popup">Личный кабинет</h1>
+					<p class="text-popup">Введите свой логин и пароль, чтоб войти</p>
+				</div>
+
+				<!--************Popup form*********-->
+				<form action="" class="popup-form">
+					<div class="popup-form-item popup-form-item-login">
+						<input class="popup-input popup-input-login" type="text" name="login" placeholder="Логин">
+					</div>
+					<div class="popup-form-item popup-form-item-password">
+						<input class="popup-input popup-input-password" type="password" name="password" placeholder="Пароль">
+					</div>
+					<div class="rememberme-checbox">
+						<input type="checkbox" class="popup-checkbox" id="check-10">
+						<label class="popup-label" for="check-10"><div class="popup-label_inner">Запомните меня</div></label>
+						<a href="#" class="fogot-password">Я забыл пароль!</a>
+					</div>
+					<div class="popup-btn-login">
+						<input class="btn-login" type="submit" value="Войти в личный кабинет">
+					</div>
+				</form>
+				<!--************/Popup form*********-->
+			</div>
+			<div class="close">
+				<a href="#close"><img src="img/close.png" alt="close"></a>
+			</div>
+
+		</div><!--************/Pop-up*************-->
+
+		<div class="overlay"></div>
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/script.custom.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
